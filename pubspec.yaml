@@ -1,0 +1,32 @@
+name: weather_forecast
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+dependencies:
+  cloud_firestore:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: 0.12.0+4
+  dio: 3.0.10
+  dio_flutter_transformer: 3.0.2
+  flutter_datetime_picker: 1.5.0
+  intl: 0.17.0
+  geolocator: 7.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
